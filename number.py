@@ -1,7 +1,7 @@
 # test n°1 Datalumni Python
 def isValid(number):
     digits = [int(d) for d in str(number)]
-    # exclusion du nombre de digits de 2 minimum modification des condition de test (1 mini à 10 mini)
+    # exclusion du nombre de digits de 2 minimum, modification des condition de test (1 mini à 10 mini)
     # if len(digits) < 2:
     #     return False
     if 1 in digits or 7 in digits:

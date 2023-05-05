@@ -25,6 +25,7 @@ def degreesAmount(rows, degrees):
 		for row in rows:
 			if row[4] == degree:
 				users_per_degrees[degree] += 1
+
 	return users_per_degrees
 
 
